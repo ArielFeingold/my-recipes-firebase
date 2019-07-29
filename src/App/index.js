@@ -1,9 +1,12 @@
 import React from 'react';
+import CssBaseline from '@material-ui/core/CssBaseline';
+
 
 const App = () => (
-  <div>
+  <React.Fragment>
+    <CssBaseline />
     <h1>App</h1>
-  </div>
+  </React.Fragment>
 );
 
 export default App;
